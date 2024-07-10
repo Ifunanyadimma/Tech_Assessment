@@ -1,12 +1,9 @@
 
 import { Link, Outlet } from "react-router-dom";
 import logo from "../assets/logo.png"
-import { MdClose, MdDashboard } from "react-icons/md";
+import { GiHamburgerMenu } from "react-icons/gi"
+import { MdDashboard } from "react-icons/md";
 import { MdPermContactCalendar } from "react-icons/md";
-
-// import Navbar from "./NavBar";
-
-
 
 
 const Layout = () => {
@@ -18,12 +15,10 @@ const Layout = () => {
         <div className="sidebar">
           <div className="top">
             <img className="logo" src={logo} alt="logo" />
-            <MdClose />
-
+            <GiHamburgerMenu /> 
           </div>
-            <div className="container-link">
-                
-              
+
+            <div className="container-link">    
                     <Link className="link" to="/dashboard">
                     <MdDashboard />
                     <span>Dashboard</span>
@@ -32,12 +27,9 @@ const Layout = () => {
                     <Link className="link" to="/addContact">
                     <MdPermContactCalendar />
                     <span>Add Contact</span>
-                    </Link>
-                
+                    </Link>  
             </div>
         </div>
-
-
 
       <div className="outlet-flex">
         <Outlet />

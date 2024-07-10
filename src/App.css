@@ -1,139 +1,49 @@
 
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background-color: #172b4d; */
 }
 .container {
   position: relative;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(236, 229, 229);
+  background-color: rgb(224, 224, 224);
 }
 .layout-flex {
   display: flex;
-  justify-content: space-between;
-  width: 100%;
 }
-.sidebar{
-  border: 1px solid red;
+.sidebar {
   width: 20%;
-  height: 100%;
   position: fixed;
-  background-color: #fff;
-  top: 0;
-  left: 0;
-  bottom: 0;
+  height: 100%;
+  background-color: aliceblue;
 }
-.top{
+.top {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
 }
-.logo{
-  width: 20%;
+.logo {
+  width: 40%;
 }
-.container-link{
-  margin: 3px;
+.container-link {
+  margin: 2px;
 }
-.link{
+.link {
   display: flex;
-  gap: 0.5rem;
-  text-decoration: none;
   align-items: center;
+  gap: 0.5rem;
   border: 1px solid gray;
-  border-radius: 5px;
-  padding: 0.5rem 1rem;
-  margin-top: 5px;
-  color: gray;
+  padding: 0.3rem;
+  border-radius: 7px;
+  text-decoration: none;
+  margin-top: 4px;
 }
-.link:hover{
-  background-color: skyblue;
+.link:hover {
+  background: lightblue;
 }
-.outlet-flex{
-  border: 1px solid blue;
+.outlet-flex {
   width: 80%;
   margin-left: 20rem;
-
-
+  padding: 2rem;
 }
-
-
-
-
-
- /* body {
-  font-family: Raleway, sans-serif;
-  color: black;
-}
-
-header {
-  padding: 30px;
-  background-color: #4b5156;
-  height: 40px;
-}
-
-.sidebar {
-  width: 250px;
-  height: 95vh;
-  background-color: #2c81c7;
-  padding: 0 30px;
-  position: absolute;
-  transition: all 1s;
-  left: -100%;
-}
-
-.sidebar.active {
-  left: 0;
-}
-
-.dashboard {
-  margin-left: 250px;
-  padding: 30px;
-  color: white;
-}
-
-.add-contact {
-  margin-left: 250px;
-  padding: 30px;
-  color: white;
-}
-
-.logo {
-  width: 5px;
- height: 5px;
-} 
-
-ul {
-  padding: 0;
-}
-
-ul,
-li {
-  list-style-type: none;
-  margin: 10px 0;
-}
-
-ul,
-li,
-link {
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
-  display: block;
-  padding: 5px 5px;
-  border-radius: 5px;
-}
-
-ul li link:hover,
-ul li link:active {
-  background-color: #3b4249;
-}
-
-ul li link svg {
-  margin-right: 10px;
-}
-
-header svg{
-  font-size: 30px;
-} */

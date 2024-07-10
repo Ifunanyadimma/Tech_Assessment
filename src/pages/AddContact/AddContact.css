@@ -1,39 +1,38 @@
-/* .add-contact {
-    max-width: 300px;
-    margin: auto;
+add-contact {
+  max-width: 300px;
+  margin: auto;
 }
-  
+
 .add-contact h2 {
-    text-align: center;
-  }
-  
+  text-align: center;
+}
+
 .add-contact form {
-    display: flex;
-    flex-direction: column;
-  }
-  
+  display: flex;
+  flex-direction: column;
+}
+
 .add-contact form > div {
-    margin-bottom: 15px;
-  }
-  
+  margin-bottom: 15px;
+}
+
 .add-contact form label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
+  display: block;
+  margin-bottom: 5px;
+}
+
 .add-contact form input {
-    width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
-  }
-  
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
 .address-section {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 15px;
-  }
-  
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
 .address-section button {
-    margin-top: 10px;
-  }
-   */
+  margin-top: 10px;
+}
