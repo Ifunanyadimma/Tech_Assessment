@@ -1,14 +1,68 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #172b4d;
+  /* background-color: #172b4d; */
+}
+.container {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(236, 229, 229);
+}
+.layout-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.sidebar{
+  border: 1px solid red;
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+.top{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.logo{
+  width: 20%;
+}
+.container-link{
+  margin: 3px;
+}
+.link{
+  display: flex;
+  gap: 0.5rem;
+  text-decoration: none;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-top: 5px;
+  color: gray;
+}
+.link:hover{
+  background-color: skyblue;
+}
+.outlet-flex{
+  border: 1px solid blue;
+  width: 80%;
+  margin-left: 20rem;
+
+
 }
 
- body {
+
+
+
+
+ /* body {
   font-family: Raleway, sans-serif;
   color: black;
 }
@@ -82,4 +136,4 @@ ul li link svg {
 
 header svg{
   font-size: 30px;
-}
+} */

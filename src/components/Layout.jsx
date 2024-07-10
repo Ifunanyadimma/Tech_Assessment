@@ -1,7 +1,7 @@
 
 import { Link, Outlet } from "react-router-dom";
-// import logo from './logo.png';
-import { MdDashboard } from "react-icons/md";
+import logo from "../assets/logo.png"
+import { MdClose, MdDashboard } from "react-icons/md";
 import { MdPermContactCalendar } from "react-icons/md";
 
 // import Navbar from "./NavBar";
@@ -11,34 +11,30 @@ import { MdPermContactCalendar } from "react-icons/md";
 
 const Layout = () => {
   return (
-    <div>
-      {/* <div className= "sidebar active"> */}
-            {/* <img src={logo} alt="logo" /> */}
-            {/* </div> */}
-    
-      <div>
-        {/* <Navbar /> */}
-      </div>
-      
-      {/*Mother flex */}
-
+    <div className="container">
       <div className="layout-flex"> 
         {/*Sidebar */}
 
-        <div className="sibebar active">
-            <ul>
-                <li>
-                <MdDashboard />
-                    <Link to="/dashboard">Dashboard</Link>
-                </li>
+        <div className="sidebar">
+          <div className="top">
+            <img className="logo" src={logo} alt="logo" />
+            <MdClose />
 
-                <br />
-
-                <li>
-                <MdPermContactCalendar />
-                    <Link to="/addContact">Add Contact</Link>
-                </li> 
-            </ul>
+          </div>
+            <div className="container-link">
+                
+              
+                    <Link className="link" to="/dashboard">
+                    <MdDashboard />
+                    <span>Dashboard</span>
+                    </Link>
+        
+                    <Link className="link" to="/addContact">
+                    <MdPermContactCalendar />
+                    <span>Add Contact</span>
+                    </Link>
+                
+            </div>
         </div>
 
 

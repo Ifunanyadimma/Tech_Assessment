@@ -1,5 +1,5 @@
 // import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet"
-// import "./Dashboard.css"
+import "./Dashboard.css"
 
 
 // const contacts = [
@@ -30,10 +30,13 @@
 //     return addresses[randomIndex];
 // };
 
-// const Dashboard = () => {
-//     return (
-//         <div className="dashboard">
-//             <div className="table-view">
+ const Dashboard = () => {
+    return (
+        <div className="dashboard">
+            <div>
+                Dashboard
+            </div>
+{/* //             <div className="table-view">
 //             <h2>Table View</h2>
 //             <table>
 //                 <thead>
@@ -48,8 +51,8 @@
 //                 </thead>
 
 //                 <tbody>
-//                     {contacts.map((contact, index) => {
-//                         const address = getRandomAdress(contact.addresses);
+//                     {contacts.map((contact, index) => { */}
+{/* //                         const address = getRandomAdress(contact.addresses);
 //                          return (
 //                             <tr key={index}>
 //                                 <td>{contact.name}</td>
@@ -61,19 +64,19 @@
 //                             </tr> 
 //                          );
 //                     })} 
-//                 </tbody>
-//             </table>
-//             </div>
+//                 </tbody> */}
+{/* //             </table> */}
+{/* //             </div> */}
 
-//             <div className="map-view">
+{/* //             <div className="map-view">
 //                 <h2>Map View</h2>
 //                 <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: "400px", width: "100%" }}>
-//                     <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-//                     attribution="&copy; <a href="https://wwww.openstreetmap.org/copyright">OpenStreetMap</a> contributors"
+//                     <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" */}
+{/* //                     attribution="&copy; <a href="https://wwww.openstreetmap.org/copyright">OpenStreetMap</a> contributors"
 //                     />
 
-//                     {contacts.map((contact, index) => {
-//                         return contact.addresses.map((address, idx) => (
+//                     {contacts.map((contact, index) => { */}
+{/* //                         return contact.addresses.map((address, idx) => (
 //                             <Marker key={`${index}-${idx}`} position={[address.latitude, address.longitude]}>
 //                                 <Popup>
 //                                     <div>
@@ -86,11 +89,11 @@
 //                             </Marker>
 //                         ))
 //                     })}
-//                 </MapContainer>
-//             </div>       
-//         </div>
-//     );
+//                 </MapContainer> */}
+{/* //             </div>        */}
+        </div>
+    );
     
-// };
+ };
 
-// export default Dashboard;
+export default Dashboard;
